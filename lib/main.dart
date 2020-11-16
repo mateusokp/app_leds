@@ -44,7 +44,7 @@ void _tcp() async{
     globals.Conectado = true;
     socket.listen((bytes) {
       dados = utf8.decode(bytes);
-    });
+    });//dad
 
 
     if(globals.EnviarDados == false) {
