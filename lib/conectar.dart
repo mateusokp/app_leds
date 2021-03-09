@@ -21,27 +21,25 @@ class _Tela3Demo extends State<TelaConexao>{
         child: Scaffold(
           body: Center(
             child: Container(
-              padding: new EdgeInsets.all(25.0),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  SizedBox(height: 120),
                   Text('Desconectado',
                     style: TextStyle(
                       color: Colors.red[800],
                       fontWeight: FontWeight.bold,
-                      fontSize: 40)),
+                      fontSize: 30)),
                   SizedBox(height: 20),
-                  Text('Favor conecte-se a rede "NodeMCU" e reinicie o aplicativo',
+                  Text('Por favor clique no botão de ajuda e siga as instruções',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-
-                        color: Colors.white70,
-                        fontSize: 25)) ],
+                          color: Colors.white70,
+                          fontSize: 25)) ],),
             ),
             ),
           ),
         ),
-      ),
-    );
+      );
   }
 }

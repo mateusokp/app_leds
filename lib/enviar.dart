@@ -1,16 +1,6 @@
 import 'package:flutter/material.dart';
 import 'globals.dart' as globals;
 
-
-
-
-
-
-
-
-
-
-
 class TelaEnviar extends StatefulWidget{
   const TelaEnviar({ Key key }) : super(key: key);
   @override
