@@ -1,16 +1,13 @@
 # app_leds
 
-A new Flutter application.
+Aplicativo para controle de leds utilizado no artigo "Adjustable lighting system based on circadian rhythm for human 
+comfort" 
+Disponivel em: http://links.springernature.com/f/a/CyDpxZVHLWRmEpt5QWmBTQ~~/AABE5gA~/RgRkZj5UP0RcaHR0cHM6Ly90cmVidWNoZXQucHVibGljLnNwcmluZ2VybmF0dXJlLmFwcC9nZXRfY29udGVudC83OWU4ODE1MS0yN2UzLTRkMDYtOTIyYi05Y2VlYzVhMDcyMDdXA3NwY0IKYoJUuYNitw9amVITbWF0ZXVzb2twQGdtYWlsLmNvbVgEAAAHLQ~~
 
-## Getting Started
+Ele consta de algumas telas onde o usuário pode controlar tanto a luminosidade quanto a temperatura de cor dos leds, contando com um modo automático que modifica estas variáveis conforme de forma a se adequar da melhor forma com o ciclo circadiano.
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/32492663/184215016-49983abf-dbb2-41a3-856e-c28366627c22.png)
 
-A few resources to get you started if this is your first Flutter project:
+A conexão do aplicativo é feita via Wi-Fi com um microcontrolador (um ESP32 foi utilizado nos testes) e o código-fonte se encontra na pasta ESP deste mesmo repositório. Um diagrama esquemático do sistema pode ser analisado na imagem a seguir.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/32492663/184215795-1611c1ff-b04b-437f-ae20-e3df75abba5e.png)
