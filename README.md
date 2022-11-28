@@ -2,7 +2,7 @@
 
 Aplicativo para controle de leds utilizado no artigo "Adjustable lighting system based on circadian rhythm for human 
 comfort" 
-Disponivel em: http://links.springernature.com/f/a/CyDpxZVHLWRmEpt5QWmBTQ~~/AABE5gA~/RgRkZj5UP0RcaHR0cHM6Ly90cmVidWNoZXQucHVibGljLnNwcmluZ2VybmF0dXJlLmFwcC9nZXRfY29udGVudC83OWU4ODE1MS0yN2UzLTRkMDYtOTIyYi05Y2VlYzVhMDcyMDdXA3NwY0IKYoJUuYNitw9amVITbWF0ZXVzb2twQGdtYWlsLmNvbVgEAAAHLQ~~
+Disponivel em: https://link.springer.com/article/10.1007/s12596-022-00874-4
 
 Ele consta de algumas telas onde o usuário pode controlar tanto a luminosidade quanto a temperatura de cor dos leds, contando com um modo automático que modifica estas variáveis conforme de forma a se adequar da melhor forma com o ciclo circadiano.
 
